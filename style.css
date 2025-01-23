@@ -1,8 +1,27 @@
-.digite {
-    font-size: 50px;
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
 }
 
-.lista {
-    font-size: 20px;
-    
+.botao-adicionar{
+    background-color: #139b89;
+    transition: background-color 0.9s;
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: none;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.botao-adicionar:hover{
+    background-color: #94d3ca;
 }

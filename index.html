@@ -7,12 +7,28 @@
     <title>Money Stats</title>
   </head>
   <body>
-    <div class="botao-ajustes">
-      <button class="botao-adicionar">+</button>
+    
+    <button class="botao-adicionar" id="openPopup">+</button>
+    
+    <!-- fundo escurecido -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- pop-up -->
+    <div class="popup" id="popup">
+      <h6>Clique na entrada ou saída</h6>
+      <div>
+        <button class="btn-entrada">Entrada</button>
+      </div>
+      <div>
+        <button class="btn-saída">Saída</button>
+      </div>
+      
+      <button class="close-btn" id="closePopup">Fechar</button>
     </div>
+
+
     <div class="popup" id="popup"></div>
     
-    <script src="script.js"></script>
-
+    <script src="index.js"></script>
   </body>
 </html>
